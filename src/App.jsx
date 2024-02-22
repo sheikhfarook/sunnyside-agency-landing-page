@@ -1,15 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import SunnySide from "./components/header/sunnyside";
+import ClientTestimonials from "./components/main/clientTestimonials";
+import Contain from "./components/main/contain";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
       <SunnySide />
+      <Contain />
+      <ClientTestimonials />
     </div>
   );
 }
