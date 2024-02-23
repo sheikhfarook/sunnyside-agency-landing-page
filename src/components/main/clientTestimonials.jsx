@@ -9,7 +9,7 @@ const ClientTestimonials = () => {
       text-center tracking-[5px] m-auto uppercase max-sm:w-[281px] max-sm:h-[20px] max-sm:text-[16px] max-sm:tracking-[4px]">
         Client Testimonials
       </div>
-      <div className="flex md:gap-20 justify-center max-sm:flex-col max-sm:items-center">
+      <div className="flex md:gap-20 justify-center max-sm:flex-col max-sm:items-center md:flex-col md:items-center xl:flex-row">
         {ClientData?.map((test) => (
           <div className="mt-20" key={test?.id}>
             <div className="space-y-10">

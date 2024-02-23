@@ -21,7 +21,7 @@ import logo from "../../assets/logo-copy.svg";
 const FooterContact = () => {
   return (
     <div className="mt-[10rem] max-sm:mt-[5rem]">
-      <div className="grid grid-cols-4 max-sm:grid-cols-2">
+      <div className="grid  max-sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <img className="max-sm:hidden" src={milkbottle} alt="" />
           <img className="md:hidden" src={milkbottles} alt="" />
